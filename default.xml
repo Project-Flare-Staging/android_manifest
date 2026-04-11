@@ -34,6 +34,13 @@
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
 
+  <!-- LineageOS -->
+  <remote  name="los"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-23.0" />
+
+  <include name="lineage.xml"/>
+
   <!-- Flare -->
   <remote  name="flare"
            fetch="https://github.com/Project-Flare-Staging"
