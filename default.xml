@@ -17,6 +17,8 @@
 
   <default remote="clo-la"/>
 
+  <include name="system.xml"/>
+
   <!-- Flare -->
   <remote  name="flare"
            fetch="https://github.com/Project-Flare-Staging"
