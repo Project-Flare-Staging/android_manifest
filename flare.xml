@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Project Overrides -->
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build_repo" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/fastrpc" />
+  <remove-project name="platform/external/json-c" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/modules/Nfc" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="device/qcom/common" />
+
+  <!-- Flare -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="flare" />
+  <project path="build/make" name="android_build" remote="flare" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="flare" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/flare/sepolicy/common" name="android_device_flare_sepolicy" remote="flare" revision="16.0-common" />
+  <project path="device/flare/sepolicy/legacy" name="android_device_flare_sepolicy" remote="flare" revision="16.0-legacy" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="flare" >
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+  </project>
+  <project path="external/fastrpc" name="android_external_fastrpc" remote="flare" />
+  <project path="external/json-c" name="android_external_json-c" remote="flare" /> 
+  <project path="frameworks/av" name="android_frameworks_av" remote="flare" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="flare" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="flare" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="flare" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="flare" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="flare" />
+  <project path="packages/modules/Nfc" name="android_packages_modules_Nfc" remote="flare" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="flare" />
+  <project path="system/core" name="android_system_core" remote="flare" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="flare" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="flare" />
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="flare" />
+  <project path="vendor/flare" name="android_vendor_flare" remote="flare" >
+    <linkfile src="build.sh" dest="rom-build.sh" />
+  </project>
+  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="flare" />
+
+</manifest>

@@ -55,4 +55,6 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <include name="flare.xml"/>
+
 </manifest>
