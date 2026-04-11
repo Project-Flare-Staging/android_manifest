@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Project Overrides -->
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build_repo" />
   <remove-project name="platform/build/soong" />
@@ -21,6 +22,7 @@
   <remove-project name="device/qcom/common" />
 
   <!-- Flare -->
+  <project path="bionic" name="android_bionic" remote="flare" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="flare" />
   <project path="build/make" name="android_build" remote="flare" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

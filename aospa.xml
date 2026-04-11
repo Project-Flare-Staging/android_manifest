@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="aospa" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="aospa" />
+
   <!-- Vendor (AOSPA) -->
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" />
 
