@@ -21,6 +21,17 @@
   <include name="vendor.xml"/>
   <include name="wlan.xml"/>
 
+  <!-- AOSPA -->
+  <remote  name="aospa"
+           fetch="https://github.com/AOSPA"
+           revision="beryl"/>
+
+  <remote  name="blobs"
+           fetch="https://github.com/ThankYouMario"
+           revision="beryl" />
+
+  <include name="aospa.xml"/>
+
   <!-- Flare -->
   <remote  name="flare"
            fetch="https://github.com/Project-Flare-Staging"
