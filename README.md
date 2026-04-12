@@ -4,12 +4,12 @@
 
 **Initialize full repository (useful for developers)**
 ```
-repo init -u https://github.com/Project-Flare-Staging/android_manifest -b 16.0
+repo init -u https://github.com/Project-Flare-Staging/android_manifest -b 16.0 --git-lfs
 ```
 
 **If you want to save space, use this instead**
 ```
-repo init -u https://github.com/Project-Flare-Staging/android_manifest -b 16.0 --depth 1
+repo init -u https://github.com/Project-Flare-Staging/android_manifest -b 16.0 --depth 1 --git-lfs
 ```
 
 ### Sync Sauce ###
