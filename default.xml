@@ -30,6 +30,7 @@
            fetch="https://github.com/ThankYouMario"
            revision="beryl" />
 
+  <include name="aosp.xml"/>
   <include name="aospa.xml"/>
 
   <!-- Flare -->
