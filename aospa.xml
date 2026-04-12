@@ -10,4 +10,8 @@
   <!-- Vendor (AOSPA) -->
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" />
 
+  <!-- Vendor (QCOM QSSI) -->
+  <remove-project path="vendor/qcom/opensource/crosvm-gunyah" />
+  <project path="vendor/qcom/opensource/crosvm-gunyah" name="platform/vendor/qcom-opensource/crosvm-gunyah" revision="7ecc64fbc799df2d791e51a0f0d2203186dd3bef" remote="clo-la" />
+
 </manifest>
