@@ -32,6 +32,7 @@
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="flare" revision="lineage-23.0" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="flare" revision="lineage-23.0" />
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="los" />
   <project path="packages/apps/EuiccPolicy" name="android_packages_apps_EuiccPolicy" remote="los" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="flare" revision="lineage-23.0" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="flare" revision="lineage-23.0" />
