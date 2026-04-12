@@ -9,6 +9,7 @@
   <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/json-c" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -45,6 +46,7 @@
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="flare" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="flare" />
   <project path="external/json-c" name="android_external_json-c" remote="flare" /> 
+  <project path="external/mksh" name="android_external_mksh" remote="flare" />
   <project path="frameworks/av" name="android_frameworks_av" remote="flare" />
   <project path="frameworks/base" name="android_frameworks_base" remote="flare" />
   <project path="frameworks/native" name="android_frameworks_native" remote="flare" />
