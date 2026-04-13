@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Project Overrides -->
+  <remove-project name="kernel/configs" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build_repo" />
@@ -53,6 +54,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="flare" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="flare" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="flare" />
+  <project path="kernel/configs" name="android_kernel_configs" remote="flare" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="flare" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="flare" />
   <project path="packages/modules/Nfc" name="android_packages_modules_Nfc" remote="flare" />
