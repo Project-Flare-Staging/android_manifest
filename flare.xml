@@ -13,6 +13,7 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/Bluetooth" />
@@ -50,6 +51,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="flare" />
   <project path="frameworks/base" name="android_frameworks_base" remote="flare" />
   <project path="frameworks/native" name="android_frameworks_native" remote="flare" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="flare" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="flare" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="flare" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="flare" />
