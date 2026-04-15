@@ -43,6 +43,7 @@
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="los" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="flare" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="los" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="flare" revision="lineage-23.0" />
 
   <!-- Inline kernel build -->
   <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" remote="los" revision="lineage-20.0" />
