@@ -63,9 +63,7 @@
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="flare" />
   <project path="system/update_engine" name="android_system_update_engine" remote="flare" />
   <project path="vendor/aospa" name="android_vendor_aospa" remote="flare" />
-  <project path="vendor/flare" name="android_vendor_flare" remote="flare" >
-    <linkfile src="build.sh" dest="rom-build.sh" />
-  </project>
+  <project path="vendor/flare" name="android_vendor_flare" remote="flare" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="flare" />
 
 </manifest>
