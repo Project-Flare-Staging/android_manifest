@@ -13,6 +13,7 @@
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <remove-project name="platform/vendor/qcom-opensource/audio" />
   <remove-project name="platform/vendor/qcom/opensource/commonsys-intf/audio" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils-vendor" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
@@ -154,6 +155,7 @@
   <project path="vendor/qcom/opensource/commonsys/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,qssi" remote="los" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="los" />
   <project path="vendor/qcom/opensource/commonsys/wfd" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pakala-video" remote="los" />
+  <project path="vendor/qcom/opensource/core-utils-vendor" name="android_vendor_qcom_opensource_core-utils-vendor" groups="qcom,pakala-vendor" remote="los" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-23.0-legacy-um" remote="los" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pakala-vendor" remote="los" />
   <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" groups="qcom" remote="los" />
