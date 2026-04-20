@@ -19,7 +19,9 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimiz
 
 ### Ignite Flare ###
 ```
-./rom-build.sh device
+. build/envsetup.sh
+
+brunch device
 ```
 
 ## Now Build and Enjoy! ##
