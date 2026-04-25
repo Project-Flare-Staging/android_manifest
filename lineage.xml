@@ -29,7 +29,9 @@
   <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" remote="los" />
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="los" />
   <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="los" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="flare" />
+  <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="los" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="los" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="flare" revision="lineage-23.0" />
