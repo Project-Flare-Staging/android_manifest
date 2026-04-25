@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- crDroid additions -->
+  <project path="axion-sdk" name="android_axion-sdk" remote="crd" revision="16.0" />
+  <project path="external/FadingEdgeLayout" name="android_external_FadingEdgeLayout" remote="crd" />
+  <project path="packages/apps/AxThemeStore" name="android_packages_apps_AxThemeStore" remote="crd" revision="16.0" />
+  <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="crd" />
+  <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="crd-gitlab" />
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="crd" />
+  <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="crd" />
+  <project path="packages/apps/LMOSystemUIClock" name="android_packages_apps_LMOSystemUIClock" remote="crd" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="crd" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="crd" />
+  <project path="vendor/addons" name="android_vendor_addons" remote="flare" />
+  <project path="vendor/certification" name="android_vendor_certification" remote="crd" />
+
+</manifest>

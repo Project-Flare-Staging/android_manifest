@@ -34,6 +34,17 @@
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
 
+  <!-- crDroid -->
+  <remote  name="crd"
+           fetch="https://github.com/crdroidandroid"
+           revision="16.0-qpr0" />
+
+  <remote  name="crd-gitlab"
+           fetch="https://gitlab.com/crdroidandroid"
+           revision="16.0-qpr0" />
+
+  <include name="crd.xml"/>
+
   <!-- LineageOS -->
   <remote  name="los"
            fetch="https://github.com/LineageOS"
