@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Project Overrides -->
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/jemalloc_new" />
+
   <!-- crDroid additions -->
   <project path="axion-sdk" name="android_axion-sdk" remote="crd" revision="16.0" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="crd" />
   <project path="external/FadingEdgeLayout" name="android_external_FadingEdgeLayout" remote="crd" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc-new" groups="pdk" remote="crd" />
   <project path="packages/apps/AxThemeStore" name="android_packages_apps_AxThemeStore" remote="crd" revision="16.0" />
   <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="crd" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="crd-gitlab" />
